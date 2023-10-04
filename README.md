@@ -1,7 +1,8 @@
 # Documentation
 
-Pour lancer le test, il suffit de se placer dans la racine du projet.
-Dans la racine du projet lancer la commande :
+Pour lancer le test, il suffit de se placer à la racine du projet.
+
+à la racine du projet lancer la commande :
 
 ### docker-compose up
  
@@ -10,11 +11,14 @@ cette commande permet d'installer toutes les images nécessaire.
 ## Importer la base de données
 
 rendez vous sur l'url de phpmyadmin pour importer la base de données qui se trouve à la racine du projet (testdb.sql):
+
 login:root
+
 password:root
+
 ### localhost:8086
 
-Une fois la base de données est importer
+Une fois la base de données est importée
 
 se positionner sur le répertoire app du projet et lancer la commande:
 
@@ -31,5 +35,7 @@ Pour visualiser les données du fichier csv rendez vous sur l'url :
 ce projet utilse:
 
 l'image 8.1-apache
+
 l'image mysql:5.7.43
+
 l'image phpmyadmin/phpmyadmin
